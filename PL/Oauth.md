@@ -38,7 +38,6 @@
                 2. client - resource owner의 보호된 자원에 대한 접근을 요청하는 응용 프로그램 혹은 서비스
                 3. resource server - 보호된 자원을 관리하는 서버, authorization server를 통해 부여받는 access token을 통해 보호된 자원을 요청
                 4. authorization server - client 에서 resource owner에 대한 인증과 권한 부여하는 서버 access token 발급
-
             - 4가지 Grant Type
                 - Authorization Code(승인 코드 유형)
                     - 주로 신뢰할 수 있는 서버사이트 서비스가 존재하는 웹 혹은 모바일에서 사용됨
@@ -55,6 +54,7 @@
                     - client = 애플리케이션 = Resource Owner 즉 서버 간의 인증 때 사용 -> 외부 노출 X
                 - Refresh Token(인증 토큰 재발급)
                     - 기간이 만료된 인증토큰을 재발급 받기 위한 인증 방식
+<<<<<<< HEAD
 ---
 
 <<<<<<< HEAD
@@ -62,3 +62,5 @@
 =======
 ```
 >>>>>>> 34918ee (error)
+=======
+>>>>>>> 19ba5d5eddc3a550ad98daae534f625251810e6a
